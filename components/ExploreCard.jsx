@@ -24,12 +24,9 @@ export default function ExploreCard({
     min-w-[170px] h-[700px] transition-[flex] duration-700 ease-out-flex cursor-pointer`}
       onClick={() => handleClick(id)}
     >
-      <Image
+      <img
         src={imgUrl}
         alt={title}
-        width={1000}
-        height={800}
-        quality={100}
         className="relative w-full h-full object-cover rounded-3xl"
       />
       {active !== id ? (
