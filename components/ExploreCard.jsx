@@ -37,6 +37,7 @@ export default function ExploreCard({
         <div
           className={`${styles.flexCenter} w-16 h-16 rounded-[24px] glassmorphism mb-4`}
         >
+          
           <Icon icon="bi:headset-vr" className="w-1/2 h-1/2 text-white" />
         </div>
         <p className="font-normal text-base leading-5 text-white uppercase">
