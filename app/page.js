@@ -1,4 +1,5 @@
-import { Footer, Navbar } from "@/components";
+import Footer from "../components/Footer";
+import Navbar from "../components/Navbar";
 import {
   About,
   Explore,
@@ -8,7 +9,7 @@ import {
   Insights,
   WhatsNew,
   World,
-} from "@/sections";
+} from "../sections";
 
 export default function Page() {
   return (

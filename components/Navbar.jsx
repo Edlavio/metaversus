@@ -4,7 +4,7 @@ import { motion } from "framer-motion";
 import { Icon } from "@iconify/react";
 
 import styles from "../styles";
-import { navVariants } from "@/utils/motion";
+import { navVariants } from "../utils/motion";
 
 export default function Navbar() {
   return (

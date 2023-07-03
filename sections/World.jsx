@@ -4,9 +4,9 @@ import Image from "next/image";
 import { motion } from "framer-motion";
 
 import styles from "../styles";
-import { staggerContainer, fadeIn } from "@/utils/motion";
-import { TitleText, TypingText } from "@/components";
-import UsersCard from "@/components/UsersCard";
+import { staggerContainer, fadeIn } from "../utils/motion";
+import { TitleText, TypingText } from "../components";
+import UsersCard from "../components/UsersCard";
 
 export default function World() {
   return (

@@ -1,7 +1,7 @@
 "use client";
 
 import { Icon } from "@iconify/react";
-import styles from "@/styles";
+import styles from "../styles";
 
 export default function NewFeatures({ iconName, title, subtitle }) {
   return (

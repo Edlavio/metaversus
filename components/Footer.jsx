@@ -3,9 +3,9 @@
 import { motion } from "framer-motion";
 import { Icon } from "@iconify/react";
 
-import { footerVariants } from "@/utils/motion";
-import styles from "@/styles";
-import { socials } from "@/constants";
+import { footerVariants } from "../utils/motion";
+import styles from "../styles";
+import { socials } from "../constants";
 
 export default function Footer() {
   return (

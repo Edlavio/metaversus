@@ -3,9 +3,9 @@
 import { motion } from "framer-motion";
 
 import styles from "../styles";
-import { staggerContainer } from "@/utils/motion";
-import { InsightCard, TitleText, TypingText } from "@/components";
-import { insights } from "@/constants";
+import { staggerContainer } from "../utils/motion";
+import { InsightCard, TitleText, TypingText } from "../components";
+import { insights } from "../constants";
 
 export default function Insights() {
   return (

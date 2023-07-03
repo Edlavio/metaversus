@@ -1,8 +1,8 @@
 "use client";
 
 import { motion } from "framer-motion";
-import styles from "@/styles";
-import { fadeIn, staggerContainer, zoomIn } from "@/utils/motion";
+import styles from "../styles";
+import { fadeIn, staggerContainer, zoomIn } from "../utils/motion";
 import Image from "next/image";
 
 export default function Feedback() {

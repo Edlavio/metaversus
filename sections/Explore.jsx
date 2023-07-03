@@ -3,9 +3,9 @@
 import { useState } from "react";
 import { motion } from "framer-motion";
 
-import { staggerContainer } from "@/utils/motion";
-import { ExploreCard, TitleText, TypingText } from "@/components";
-import { exploreWorlds } from "@/constants";
+import { staggerContainer } from "../utils/motion";
+import { TypingText, TitleText, ExploreCard } from "../components";
+import { exploreWorlds } from "../constants";
 import styles from "../styles";
 
 export default function Explore() {

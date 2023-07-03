@@ -1,4 +1,4 @@
-import styles from "@/styles";
+import styles from "../styles";
 
 export default function StartSteps({ text, number }) {
   return (

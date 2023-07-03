@@ -4,7 +4,7 @@ import Image from "next/image";
 import { motion } from "framer-motion";
 import { Icon } from "@iconify/react";
 
-import { fadeIn } from "@/utils/motion";
+import { fadeIn } from "../utils/motion";
 
 export default function InsightCard({ imgUrl, title, subtitle, url, index }) {
   <motion.div
