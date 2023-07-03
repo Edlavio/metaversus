@@ -28,7 +28,8 @@ export default function ExploreCard({
         src={imgUrl}
         alt={title}
         width={1000}
-        height={1000}
+        height={800}
+        quality={100}
         className="relative w-full h-full object-cover rounded-3xl"
       />
       {active !== id ? (
