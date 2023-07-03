@@ -1,11 +1,20 @@
 "use client";
 
+import Image from "next/image";
 import { motion } from "framer-motion";
-import { fadeIn } from "@/utils/motion";
-import styles from "@/styles";
 import { Icon } from "@iconify/react";
 
-const ExploreCard = ({ id, imgUrl, title, index, active, handleClick }) => (
+import { fadeIn } from "@/utils/motion";
+import styles from "@/styles";
+
+export default function ExploreCard({
+  id,
+  imgUrl,
+  title,
+  index,
+  active,
+  handleClick,
+}) {
   <motion.div
     variants={fadeIn("right", "sprind", index * 0.5, 0.75)}
     className={`relative 
@@ -14,7 +23,7 @@ const ExploreCard = ({ id, imgUrl, title, index, active, handleClick }) => (
     min-w-[170px] h-[700px] transition-[flex] duration-700 ease-out-flex cursor-pointer`}
     onClick={() => handleClick(id)}
   >
-    <img
+    <Image
       src={imgUrl}
       alt={title}
       className="relative w-full h-full object-cover rounded-3xl"
@@ -38,7 +47,5 @@ const ExploreCard = ({ id, imgUrl, title, index, active, handleClick }) => (
         </h2>
       </div>
     )}
-  </motion.div>
-);
-
-export default ExploreCard;
+  </motion.div>;
+}

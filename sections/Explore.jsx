@@ -8,8 +8,8 @@ import { ExploreCard, TitleText, TypingText } from "@/components";
 import { exploreWorlds } from "@/constants";
 import styles from "../styles";
 
-const Explore = () => {
-  const [active, setActive] = useState('world-2')
+export default function Explore() {
+  const [active, setActive] = useState("world-2");
 
   return (
     <section className={`${styles.paddings}`} id="explore">
@@ -43,5 +43,4 @@ const Explore = () => {
       </motion.div>
     </section>
   );
-};
-export default Explore;
+}

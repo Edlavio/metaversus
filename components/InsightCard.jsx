@@ -1,17 +1,20 @@
 "use client";
 
+import Image from "next/image";
 import { motion } from "framer-motion";
-
-import { fadeIn } from "@/utils/motion";
 import { Icon } from "@iconify/react";
 
-const InsightCard = ({ imgUrl, title, subtitle, url, index }) => (
+import { fadeIn } from "@/utils/motion";
+
+export default function InsightCard({ imgUrl, title, subtitle, url, index }) {
   <motion.div
     variants={fadeIn("up", "spring", index * 0.5, 1)}
     className="flex flex-col md:flex-row gap-4"
   >
-    <img
+    <Image
       src={imgUrl}
+      width={300}
+      height={250}
       alt="planet"
       className="md:w-[270px] w-full h-[250px] rounded-[32px] object-cover"
     />
@@ -35,7 +38,5 @@ const InsightCard = ({ imgUrl, title, subtitle, url, index }) => (
         />
       </a>
     </div>
-  </motion.div>
-);
-
-export default InsightCard;
+  </motion.div>;
+}
